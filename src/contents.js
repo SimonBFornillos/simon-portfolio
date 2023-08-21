@@ -1,19 +1,21 @@
-const logotext = "{Initials Here}";
+import SimonImg from "./Assets/SimonFornillos2-removebg-preview.png"
+
+const logotext = "Simon";
 const meta = {
     title: "Simon",
     description: "I'm Simon Fredrick B. Fornillos, a front-end reactjs Developer.",
 };
 
 const introdata = {
-    title: "Hi, I'm Simon Fredrick B. Fornllos",
+    title: "My name is Simon",
     animated: {
-        first: "Front-end Developer",
-        second: "ReactJs Developer",
-        third: "Web Developer",
-        // add more if you'd like but make sure to update /src/pages/home/index.js Line 29
+        first: "I am a Front-end Developer",
+        second: "I am a ReactJs Developer",
+        third: "I am a Web Developer",
+        fourth: "I am a Gamer",
     },
-    description: "Dedicated technology enthusiast with an insatiable curiosity for unraveling the complexities of our digital world.",
-    your_img_url: "https://i.ibb.co/wRjcnGL/me.jpg",
+    description: "I'm an aspiring front-end ReactJs Developer, developing and focusing on the design of the webpage.",
+    your_img_url: SimonImg,
 };
 
 const dataabout = {
