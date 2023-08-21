@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Header.scss";
 import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
-import { logotext ,socialprofils } from "../contents";
+import { logotext ,socialprofiles } from "../contents";
 import Themetoggle from "../Components/ThemeToggle/Theme";
 
 const Headermain = () => {
@@ -51,9 +51,9 @@ const Headermain = () => {
             </div>
           </div>
           <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3">
-            <div className="d-flex">
-            <a href={socialprofils.linkedin}>LinkedIn</a>
-            <a href={socialprofils.github}>Github</a>
+            <div className="d-flex">s
+            <a href={socialprofiles.linkedin}>LinkedIn</a>
+            <a href={socialprofiles.github}>Github</a>
             </div>
             <p className="copyright m-0">COPYRIGHT by Simon Fornillos</p>
           </div>
