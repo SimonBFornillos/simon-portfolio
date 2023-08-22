@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/simon-portfolio/static/css/main.a5cc8cce.css",
+    "main.js": "/simon-portfolio/static/js/main.dda5c7d7.js",
+    "static/media/SSPHolding.png": "/simon-portfolio/static/media/SSPHolding.7a46e714966a588ae9b7.png",
+    "static/media/Playground.png": "/simon-portfolio/static/media/Playground.f7fb5991f0dde6557eac.png",
+    "static/media/Sim-on.png": "/simon-portfolio/static/media/Sim-on.a226fbc8a1f4dd55b7e0.png",
+    "static/media/Deja-Brew.png": "/simon-portfolio/static/media/Deja-Brew.9ae6190c7faf6a5aaeae.png",
+    "static/media/SimonPortfolio.png": "/simon-portfolio/static/media/SimonPortfolio.63cfb01fe1c98b3c7c49.png",
+    "static/media/SimonFornillos2-removebg-preview.png": "/simon-portfolio/static/media/SimonFornillos2-removebg-preview.8481d3d621fbaae7041a.png",
+    "index.html": "/simon-portfolio/index.html",
+    "main.a5cc8cce.css.map": "/simon-portfolio/static/css/main.a5cc8cce.css.map",
+    "main.dda5c7d7.js.map": "/simon-portfolio/static/js/main.dda5c7d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5cc8cce.css",
+    "static/js/main.dda5c7d7.js"
+  ]
+}
