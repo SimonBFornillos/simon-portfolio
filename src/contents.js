@@ -1,4 +1,9 @@
 import SimonImg from "./Assets/SimonFornillos2-removebg-preview.png"
+import DejaBrew from "./Assets/ProjectsAssets/Deja-Brew.png"
+import Playground from "./Assets/ProjectsAssets/Playground.png"
+import Simon from "./Assets/ProjectsAssets/Sim-on.png"
+import SSP from "./Assets/ProjectsAssets/SSPHolding.png"
+import SimonPort from "./Assets/ProjectsAssets/SimonPortfolio.png"
 
 const logotext = "Simon";
 const meta = {
@@ -66,65 +71,39 @@ const skills = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        portfoliotitle: "Deja-brew",
+        img: DejaBrew,
+        description: "A website for ordering coffee and desserts.",
+        source: "https://github.com/khalexiiii/Deja-Brew",
+        live: "https://khalexiiii.github.io/Deja-Brew/",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        portfoliotitle: "Playground",
+        img: Playground,
+        description: "A Collaborative showcase of me and my friends. More like a portfolio.",
+        source: "https://github.com/andrewizo/playground1",
+        live: "",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        portfoliotitle: "Sim-on",
+        img: Simon,
+        description: "My first ever Website, more so showcase on what I could do.",
+        source: "https://github.com/SimonBFornillos/SimonBFornillos",
+        live: "https://simonbfornillos.github.io/SimonBFornillos/",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        portfoliotitle: "SSP Holdings",
+        img: SSP,
+        description: "A website for stocks and holdings, it's also has an inventory system.",
+        source: "https://github.com/tritonmax26/FinalProjectCapstone",
+        live: "https://capstone-project-e6eo.onrender.com",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        portfoliotitle: "My portfolio",
+        img: SimonPort,
+        description: "",
+        source: "",
+        live: "",
     },
 ];
 
@@ -138,9 +117,9 @@ const contactConfig = {
     YOUR_USER_ID: "USER_ID (PUBLIC_KEY)",
 };
 
-const socialprofils = {
+const socialprofiles = {
     github: "https://github.com/SimonBFornillos",
-    linkedin: "https://www.linkedin.com/in/simon-fornillos-536036278/",
+    sourceedin: "https://www.sourceedin.com/in/simon-fornillos-536036278/",
 };
 export {
     meta,
@@ -150,6 +129,6 @@ export {
     skills,
     introdata,
     contactConfig,
-    socialprofils,
+    socialprofiles,
     logotext,
 };

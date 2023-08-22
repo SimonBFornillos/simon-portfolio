@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import withRouter from "../Router/withRouter";
 import { Home } from "../Pages/Home/Home";
-import { Projects } from "../Pages/Projects/Projects";
+import Projects from "../Pages/Projects/Projects";
 import { Contact } from  "../Pages/Contact/Contact";
 import { Skills } from "../Pages/Skills/Skills";
 import { Socialicons } from "../Components/SocialIcons/Social";
