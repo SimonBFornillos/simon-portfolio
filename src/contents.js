@@ -25,22 +25,17 @@ const introdata = {
 
 const dataabout = {
     title: "Who am I?",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    aboutme: "I am Simon Fredrick B. Fornillos and I am an aspiring web developer, focusing mainly on ReactJS to create websites. I graduated from the bootcamp called KodeGo and after the bootcamp I've been practicing more coding to be able to hone my skills more.",
 };
-const worktimeline = [{
-        jobtitle: "Example 1",
-        where: "Google",
-        date: "2023",
+const schooltimeline = [{
+        jobtitle: "Technical Vocational Livelihood Track",
+        where: "iACADEMY",
+        date: "August 2018 - May 2020",
     },
     {
-        jobtitle: "Example 2",
-        where: "Micosoft",
-        date: "2022",
-    },
-    {
-        jobtitle: "Example 3",
-        where: "Meta",
-        date: "2021",
+        jobtitle: "Full-stack Web Development",
+        where: "KodeGo",
+        date: "March 2023 - May 2023",
     },
 ];
 
@@ -80,7 +75,7 @@ const dataportfolio = [{
     {
         portfoliotitle: "Playground",
         img: Playground,
-        description: "A Collaborative showcase of me and my friends. More like a portfolio.",
+        description: "A Collaborative showcase of me and my friends. More like a portfolio. (In progress)",
         source: "https://github.com/andrewizo/playground1",
         live: "",
     },
@@ -125,7 +120,7 @@ export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
+    schooltimeline,
     skills,
     introdata,
     contactConfig,

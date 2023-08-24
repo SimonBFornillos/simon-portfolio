@@ -1,16 +1,12 @@
 import React from 'react';
+import "./Projects.scss";
 
 function IconLink(props) {
-   const { href, title, icon } = props;
-
-   const navigateToLink = () => {
-      window.location.href = href;
-   };
-
+   const { link, title, icon } = props;
    return (
-      <button onClick={navigateToLink}>
+      <a href={link} target="_blank" rel="noopener noreferrer">
          <i className={icon}></i> {title}
-      </button>
+      </a>
    );
 }
 
