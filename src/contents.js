@@ -25,7 +25,7 @@ const introdata = {
 
 const dataabout = {
     title: "Who am I?",
-    aboutme: "I am Simon Fredrick B. Fornillos and I am an aspiring web developer, focusing mainly on ReactJS to create websites. I graduated from the bootcamp called KodeGo and after the bootcamp I've been practicing more coding to be able to hone my skills more.",
+    aboutme: "I am Simon Fredrick B. Fornillos and I am an aspiring web developer, focusing mainly on ReactJS to create websites but eager to learn new languages if necessary. I graduated from the bootcamp called KodeGo and after the bootcamp I've been practicing more coding to be able to hone my skills more.",
 };
 const schooltimeline = [{
         jobtitle: "Technical Vocational Livelihood Track",
